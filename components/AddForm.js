@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Form, Button } from 'react-bootstrap';
-
+import { toast, ToastContainer } from '../components/react-toastify';
+import 'react-toastify/dist/ReactToastify.css'; 
 const AddForm = ({ onSubmit }) => {
     const [title, setTitle] = useState('');
     const [description, setDescription] = useState('');
