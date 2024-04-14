@@ -1,4 +1,6 @@
-import mergeCss from '@/lib/utils/mergeCss/mergeCss';
+import mergeCss from '@/lib/utils/mergeCss';
+const App = () => {
+  const className = mergeCss(['class1', 'class2', {'class3': true }]);};
 function DemoPage({ children }) {
 	return (
 		<>
@@ -10,6 +12,16 @@ function DemoPage({ children }) {
 					<header className="mb-10">
 						<h2>To Do List Display</h2>
 					</header>
+					
+
+
+					return (
+					<div className={className}>
+						{/* Your component content */}
+					</div>
+					);
+
+					export default App;
 
 					<aside className=" bg-neutral-100 flex justify-between border border-black py-2.5 px-3">
 						<header>

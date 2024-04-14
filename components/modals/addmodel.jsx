@@ -8,7 +8,7 @@ const AddTaskModal = ({ show, onHide }) => {
                 <Modal.Title>Add Task</Modal.Title>
             </Modal.Header>
             <Modal.Body>
-                {/* AddForm component will go here */}
+                
             </Modal.Body>
         </Modal>
     );
