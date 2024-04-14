@@ -1,4 +1,6 @@
-function NotFoundPage({children}) {
+
+import mergeCss from '@/lib/utils/mergeCss';
+function NotFoundPage({ children }) {
 	return (
 		<>
 			<header className="text-center pt-28">

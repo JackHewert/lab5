@@ -5,7 +5,7 @@ import {IoLogoGithub, IoLogoGoogle} from 'react-icons/io'
 import {EmailAndPasswordForm, TermsOfUse, SignInOption} from '@/components/forms'
 import {Button} from '@/components/buttons/Button'
 import {Anchor, AnchorLabel} from '@/components/anchor/Anchor'
-
+import mergeCss from '@/lib/utils/mergeCss';
 import {BrandLogo} from '@/components/brand'
 
 async function SignUpPage({children}) {

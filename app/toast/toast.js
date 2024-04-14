@@ -1,4 +1,4 @@
-// components/todos/AddTask.js
+import mergeCss from '@/lib/utils/mergeCss';
 import { toast } from 'react-toastify';
 
 const AddTask = () => {
@@ -10,7 +10,7 @@ const AddTask = () => {
 
     return (
         <div>
-            {}
+            { }
             <button onClick={handleAddTask}>Add Task</button>
         </div>
     );

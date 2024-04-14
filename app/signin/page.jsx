@@ -1,3 +1,4 @@
+import mergeCss from '@/lib/utils/mergeCss';
 async function SignInPage({children}) {
 	return (
 		<>
