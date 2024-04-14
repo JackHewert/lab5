@@ -1,7 +1,7 @@
 import Link from 'next/link'
-import {cn} from '@/lib/utils/mergeCss'
+import { cn } from '@/lib/utils/mergeCss/mergeCss'
 
-function SignInOption({children, className}) {
+function SignInOption({ children, className }) {
 	return (
 		<div className={cn(' text-center   text-gray-500 text-xs', className)}>
 			<p>Already have an account?</p>

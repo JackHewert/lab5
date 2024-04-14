@@ -1,6 +1,6 @@
-import {cn} from '@/lib/utils/mergeCss'
+import { cn } from '@/lib/utils/mergeCss/mergeCss'
 
-function Label({children, className}) {
+function Label({ children, className }) {
 	return <label className={cn('text-sm font-medium text-zinc-700 p-0 m-0', className)}>{children}</label>
 }
 

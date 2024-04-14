@@ -1,4 +1,4 @@
-import {cn} from '@/lib/utils/mergeCss'
+import { cn } from '@/lib/utils/mergeCss/mergeCss'
 
 function H1(children, className, props) {
 	return (
@@ -48,7 +48,7 @@ function H6(children, className, props) {
 	)
 }
 
-export default function Title({children, as, className, ...props}) {
+export default function Title({ children, as, className, ...props }) {
 	switch (as) {
 		case 'h1':
 			return H1(children, className, props)

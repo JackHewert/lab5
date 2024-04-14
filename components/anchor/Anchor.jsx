@@ -1,8 +1,8 @@
 import Link from 'next/link'
 
-import {cn} from '@/lib/utils/mergeCss'
+import { cn } from '@/lib/utils/mergeCss/mergeCss'
 
-function Anchor({children, href = '/', className}) {
+function Anchor({ children, href = '/', className }) {
 	return (
 		<Link href={href} className={cn('text-inherit', className)}>
 			{children}
@@ -10,16 +10,16 @@ function Anchor({children, href = '/', className}) {
 	)
 }
 
-function AnchorContent({children, className}) {
+function AnchorContent({ children, className }) {
 	return <div className={cn('text-inerhit', className)}>{children}</div>
 }
 
-function AnchorIcon({children, icon, className}) {
+function AnchorIcon({ children, icon, className }) {
 	return <div className={cn('text-inherit', className)}> {icon}</div>
 }
 
-function AnchorLabel({children, className}) {
+function AnchorLabel({ children, className }) {
 	return <span className={cn('text-blue-500 font-semibold', className)}>{children}</span>
 }
 
-export {Anchor, AnchorContent, AnchorIcon, AnchorLabel}
+export { Anchor, AnchorContent, AnchorIcon, AnchorLabel }

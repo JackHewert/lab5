@@ -1,9 +1,9 @@
-import {cn} from '@/lib/utils/mergeCss'
-import {AppBar, AppBarItem, AppBarItemGroup} from '../navigation'
-import {MobileMenu} from '../menus/MobileMenu'
-import {AnchorLabel, Anchor} from '../anchor/Anchor'
-import {Brand, BrandLogo, BrandName} from '@/components/brand'
-function NavBar({children, className}) {
+import { cn } from '@/lib/utils/mergeCss/mergeCss'
+import { AppBar, AppBarItem, AppBarItemGroup } from '../navigation'
+import { MobileMenu } from '../menus/MobileMenu'
+import { AnchorLabel, Anchor } from '../anchor/Anchor'
+import { Brand, BrandLogo, BrandName } from '@/components/brand'
+function NavBar({ children, className }) {
 	return (
 		<AppBar className={cn('flex justify-between items-center py-3 px-4 bg-black', className)}>
 			<AppBarItem>
@@ -22,4 +22,4 @@ function NavBar({children, className}) {
 	)
 }
 
-export {NavBar}
+export { NavBar }

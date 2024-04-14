@@ -1,10 +1,10 @@
-import {cn} from '@/lib/utils/mergeCss'
+import { cn } from '@/lib/utils/mergeCss/mergeCss'
 
-function Button({children, className, ...props}) {
+function Button({ children, className, ...props }) {
 	return (
 		<button {...props} className={cn('bg-indigo-500 font-medium text-white py-2.5 px-9 rounded-md', className)}>
 			{children}
 		</button>
 	)
 }
-export {Button}
+export { Button }

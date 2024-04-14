@@ -1,11 +1,11 @@
-import {Sheet, SheetClose, SheetContent, SheetDescription, SheetHeader, SheetTitle, SheetTrigger} from '@/components/ui/sheet'
-import {SlMenu, SlDiamond, SlBookOpen, SlAnchor, SlBubbles, SlChemistry, SlSettings, SlCompass} from 'react-icons/sl'
-import {cn} from '@/lib/utils/mergeCss'
-import {Title} from '@/components/headings'
-import {Anchor, AnchorLabel} from '@/components/anchor/Anchor'
-import {Container} from '../layout/Container'
+import { Sheet, SheetClose, SheetContent, SheetDescription, SheetHeader, SheetTitle, SheetTrigger } from '@/components/ui/sheet'
+import { SlMenu, SlDiamond, SlBookOpen, SlAnchor, SlBubbles, SlChemistry, SlSettings, SlCompass } from 'react-icons/sl'
+import { cn } from '@/lib/utils/mergeCss/mergeCss'
+import { Title } from '@/components/headings'
+import { Anchor, AnchorLabel } from '@/components/anchor/Anchor'
+import { Container } from '../layout/Container'
 
-function MobileMenu({children, className}) {
+function MobileMenu({ children, className }) {
 	return (
 		<nav className={cn('text-inherit', className)}>
 			<Sheet>
@@ -58,4 +58,4 @@ function MobileMenu({children, className}) {
 	)
 }
 
-export {MobileMenu}
+export { MobileMenu }

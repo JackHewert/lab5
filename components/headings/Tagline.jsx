@@ -1,6 +1,6 @@
-import {cn} from '@/lib/utils/mergeCss'
+import { cn } from '@/lib/utils/mergeCss/mergeCss'
 
-function Tagline({children, className, props}) {
+function Tagline({ children, className, props }) {
 	return (
 		<p {...props} className={cn('text-inherit', className)}>
 			{children}

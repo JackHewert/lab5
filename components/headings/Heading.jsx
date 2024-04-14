@@ -1,6 +1,6 @@
-import {cn} from '@/lib/utils/mergeCss'
+import { cn } from '@/lib/utils/mergeCss/mergeCss'
 
-function Heading({children, className, ...props}) {
+function Heading({ children, className, ...props }) {
 	return (
 		<header {...props} className={cn(' ', className)}>
 			{children}

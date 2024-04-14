@@ -1,6 +1,6 @@
 import Link from 'next/link'
-import {cn} from '@/lib/utils/mergeCss'
-function TermsOfUse({children, className}) {
+import { cn } from '@/lib/utils/mergeCss/mergeCss'
+function TermsOfUse({ children, className }) {
 	return (
 		<footer className={cn('', className)}>
 			<h3 className="text-[11px] text-gray-500 font-medium">Terms of use.</h3>

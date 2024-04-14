@@ -1,5 +1,5 @@
-import mergeCss from '@/lib/utils/mergeCss';
-function DemoPage({children}) {
+import mergeCss from '@/lib/utils/mergeCss/mergeCss';
+function DemoPage({ children }) {
 	return (
 		<>
 			<header className="text-center pt-28">

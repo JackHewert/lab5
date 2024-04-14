@@ -1,5 +1,5 @@
 
-import mergeCss from '@/lib/utils/mergeCss';
+import mergeCss from '@/lib/utils/mergeCss/mergeCss';
 function NotFoundPage({ children }) {
 	return (
 		<>

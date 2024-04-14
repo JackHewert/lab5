@@ -5,7 +5,7 @@ export const metadata = {
 	title: 'To Do List App',
 	description: 'Best to do list of the year in DMIT',
 }
-import mergeCss from '@/lib/utils/mergeCss';
+import mergeCss from '@/lib/utils/mergeCss/mergeCss';
 
 const App = () => {
 	const className = mergeCss(['class1', 'class2', { 'class3': true }]);

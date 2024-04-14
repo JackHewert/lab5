@@ -1,10 +1,10 @@
 'use client'
 
-import {cn} from '@/lib/utils/mergeCss'
-import {FormControl, Label, Input} from '.'
-import {Button} from '../buttons/Button'
-import {signUpAction} from '@/actions/signUpAction'
-function EmailAndPasswordForm({children, className}) {
+import { cn } from '@/lib/utils/mergeCss/mergeCss'
+import { FormControl, Label, Input } from '.'
+import { Button } from '../buttons/Button'
+import { signUpAction } from '@/actions/signUpAction'
+function EmailAndPasswordForm({ children, className }) {
 	return (
 		<form action={signUpAction} className={(cn('space-y-8'), className)}>
 			<FormControl className="flex flex-col">

@@ -1,5 +1,5 @@
-import mergeCss from '@/lib/utils/mergeCss';
-async function SignInPage({children}) {
+import mergeCss from '@/lib/utils/mergeCss/mergeCss';
+async function SignInPage({ children }) {
 	return (
 		<>
 			<header className="text-center pt-28">

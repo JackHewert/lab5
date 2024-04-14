@@ -1,6 +1,6 @@
-import {cn} from '@/lib/utils/mergeCss'
+import { cn } from '@/lib/utils/mergeCss/mergeCss'
 
-function GoogleIcon({children, className}) {
+function GoogleIcon({ children, className }) {
 	return (
 		<svg className={cn('w-5 h-5', className)} viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
 			<g clip-path="url(#clip0_13183_10121)">
@@ -26,4 +26,4 @@ function GoogleIcon({children, className}) {
 		</svg>
 	)
 }
-export {GoogleIcon}
+export { GoogleIcon }

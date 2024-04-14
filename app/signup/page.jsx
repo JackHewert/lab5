@@ -1,14 +1,14 @@
-import {ProviderButton, ProviderLabel} from '@/components/forms/ProviderButton'
-import {Heading, Title} from '@/components/headings'
-import {Container} from '@/components/layout/Container'
-import {IoLogoGithub, IoLogoGoogle} from 'react-icons/io'
-import {EmailAndPasswordForm, TermsOfUse, SignInOption} from '@/components/forms'
-import {Button} from '@/components/buttons/Button'
-import {Anchor, AnchorLabel} from '@/components/anchor/Anchor'
-import mergeCss from '@/lib/utils/mergeCss';
-import {BrandLogo} from '@/components/brand'
+import { ProviderButton, ProviderLabel } from '@/components/forms/ProviderButton'
+import { Heading, Title } from '@/components/headings'
+import { Container } from '@/components/layout/Container'
+import { IoLogoGithub, IoLogoGoogle } from 'react-icons/io'
+import { EmailAndPasswordForm, TermsOfUse, SignInOption } from '@/components/forms'
+import { Button } from '@/components/buttons/Button'
+import { Anchor, AnchorLabel } from '@/components/anchor/Anchor'
+import mergeCss from '@/lib/utils/mergeCss/mergeCss';
+import { BrandLogo } from '@/components/brand'
 
-async function SignUpPage({children}) {
+async function SignUpPage({ children }) {
 	console.log('this is a server component')
 
 	return (
