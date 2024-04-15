@@ -1,4 +1,5 @@
-import mergeCss from '@/lib/utils/mergeCss/mergeCss';
+import { cn } from '../../lib/utils/mergeCss';
+
 async function SignInPage({ children }) {
 	return (
 		<>

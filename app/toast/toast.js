@@ -1,4 +1,4 @@
-import mergeCss from '@/lib/utils/mergeCss/mergeCss';
+import { cn } from '../../lib/utils/mergeCss';
 import { toast } from 'react-toastify';
 
 const AddTask = () => {
